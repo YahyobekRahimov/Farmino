@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-display: swap;
   font-family: "Libre Baskerville";
@@ -46,6 +53,7 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -72,6 +80,7 @@ body {
 
 h2 {
   color: #023f3a;
+  -webkit-font-feature-settings: "liga" off;
   font-feature-settings: "liga" off;
   font-family: "Libre Baskerville", serif;
   font-size: 48px;
