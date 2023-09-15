@@ -1,0 +1,90 @@
+@font-face {
+  font-display: swap;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/libre-baskerville-v14-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/libre-baskerville-v14-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/josefin-sans-v32-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/josefin-sans-v32-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/josefin-sans-v32-latin-600.woff2") format("woff2");
+}
+
+/*
+ Josefin sans -> sans-serif
+  Libre Baskerville -> serif
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-color: #023f3a;
+  --black-text: #18191f;
+  --grey-text: #525560;
+  --white-like-text: #f0fdf4;
+  --footer-black: #222;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+h2 {
+  color: #023f3a;
+  font-feature-settings: "liga" off;
+  font-family: "Libre Baskerville", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
